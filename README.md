@@ -1,15 +1,18 @@
 # 🎮 ft_transcendence
-
 ## 🚀 Présentation
 
-**ft_transcendence** est un projet développé dans le cadre du cursus de l'école **42**, visant à créer une **application web** permettant aux utilisateurs de jouer au célèbre jeu **Pong** en **temps réel**, avec un mode **multijoueur en ligne** et un **système de tournois**.
-
 Le projet est conçu comme un **site web single-page (SPA)**, combinant **frontend moderne**, **backend robuste**, et **communication en temps réel** via **WebSockets**.
+
+![BUILD_IMAGE](./ressources/ft_transcendence_0.png)
+![REGISTER_IMAGE](./ressources/ft_transcendence_4.png)
+![PLAY_IMAGE](./ressources/ft_transcendence_1.png)
+![SOCIALIZE_IMAGE](./ressources/ft_transcendence_2.png)
+![STATS_IMAGE](./ressources/ft_transcendence_3.png)
+
 
 ---
 
 ## 🛠️ Fonctionnalités
-
 ### **✅ Fonctionnalités Obligatoires (Mandatory Features)**
 
 - 🎮 **Jeu de Pong en ligne** (1v1 sur le même clavier).  
@@ -23,27 +26,25 @@ Le projet est conçu comme un **site web single-page (SPA)**, combinant **fronte
 ---
 
 ### **📌 Modules (Fonctionnalités Additionnelles)**  
-
 #### 🟢 Modules Majeurs ✅  
-- ✅ Utilisation d’un framework backend (Fastify, Node.js) **GREG**
-- ✅ Gestion complète des utilisateurs (authentification, avatars, stats, amis) **ALEX on front** & **GREG on back**
-- ✅ Sécurisation avancée (JWT, 2FA) **ALEX on front** & **GREG on back**
-- ✅ Authentification Google (OAuth) **ALEX on front** & **GREG on back**
-- ✅ Remote player (matchs en ligne, WebSocket) **ANTO**
-- ✅ Live chat (public + privé, temps réel) **ALEX on front** & **GREG on back**
-- ✅ Intégration BabylonJS (rendu 3D du jeu) **ANTO**
+- ✅ Utilisation d’un framework backend (Fastify, Node.js)
+- ✅ Gestion complète des utilisateurs (authentification, avatars, stats, amis)
+- ✅ Sécurisation avancée (JWT, 2FA)
+- ✅ Authentification Google (OAuth)
+- ✅ Remote player (matchs en ligne, WebSocket)
+- ✅ Live chat (public + privé, temps réel)
+- ✅ Intégration BabylonJS (rendu 3D du jeu)
 
 #### 🟡 Modules Mineurs ✅  
-- ✅ Personnalisation du jeu (Game Customization)  **ANTO**
-- ✅ Utilisation d’une base de données (SQLite)  **GREG**
-- ✅ Compatibilité navigateur (Browser Compatibility)  **ALEX** **ANTO** **GREG**
-- ✅ Conformité RGPD (mentions légales, gestion des données)  **GREG**
-- ✅ Multi-device sur téléphone (responsive + synchronisation de session)  **ALEX**
+- ✅ Personnalisation du jeu (Game Customization)
+- ✅ Utilisation d’une base de données (SQLite)
+- ✅ Compatibilité navigateur (Browser Compatibility)
+- ✅ Conformité RGPD (mentions légales, gestion des données)
+- ✅ Multi-device sur téléphone (responsive + synchronisation de session)
 
 ---
 
 ## 📌 Technologies Utilisées
-
 ### **Frontend**
 - TypeScript (vanilla, sans framework)
 - Tailwind CSS (UI responsive)
@@ -64,16 +65,5 @@ Le projet est conçu comme un **site web single-page (SPA)**, combinant **fronte
 - Prise en charge du multi-device (desktop/mobile)
 - Respect des bonnes pratiques RGPD (gestion des données utilisateurs)
 
----
-
-## 🧑‍💻 Équipe
-
-👨‍💻 **Frontend :**  Alexandre Autin (Aautin)  
-👨‍💻 **Backend :**  Gregoire Chamorel (Gchamore)  
-👨‍💻 **Jeu & Multijoueur :**  Antonin Ferre (Anferre)  
-
----
-
 ## 📜 Licence
-
 Ce projet est développé dans le cadre du cursus **42** et suit ses directives pédagogiques.  
